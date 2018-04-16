@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52517D8A3E7755C8C5D083FE /* Pods_CharityAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D6D494F64A03474E25072 /* Pods_CharityAppUITests.framework */; };
+		559B0B8D24F8445965655160 /* Pods_CharityAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2CFE7190F35FC74B037C18 /* Pods_CharityAppTests.framework */; };
 		845C38BD207FBBAF00D73721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C38BC207FBBAF00D73721 /* AppDelegate.swift */; };
 		845C38BF207FBBAF00D73721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C38BE207FBBAF00D73721 /* ViewController.swift */; };
-		845C38C2207FBBAF00D73721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845C38C0207FBBAF00D73721 /* Main.storyboard */; };
 		845C38C4207FBBAF00D73721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845C38C3207FBBAF00D73721 /* Assets.xcassets */; };
 		845C38C7207FBBAF00D73721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845C38C5207FBBAF00D73721 /* LaunchScreen.storyboard */; };
 		845C38D2207FBBAF00D73721 /* CharityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C38D1207FBBAF00D73721 /* CharityAppTests.swift */; };
 		845C38DD207FBBAF00D73721 /* CharityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C38DC207FBBAF00D73721 /* CharityAppUITests.swift */; };
+		84714BC220838EC300358F40 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84714BC120838EC300358F40 /* PaymentVC.swift */; };
+		84714BC32083AEAF00358F40 /* Braintree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84714BC42083AEAF00358F40 /* Braintree.framework */; };
+		84714BC52083AEB800358F40 /* BraintreeDropIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84714BC62083AEB800358F40 /* BraintreeDropIn.framework */; };
+		84714BC82083B19300358F40 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84714BC72083B19300358F40 /* HomeVC.swift */; };
+		84714BCA2083D1D200358F40 /* CharityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84714BC92083D1D200358F40 /* CharityVC.swift */; };
+		84714BCD2083DF2500358F40 /* Charity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84714BCC2083DF2500358F40 /* Charity.storyboard */; };
+		848DC063208354280028AEF1 /* SignUPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC062208354280028AEF1 /* SignUPVC.swift */; };
+		848DC06B20835A550028AEF1 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC06A20835A550028AEF1 /* Login.swift */; };
+		848DC06E20835F3D0028AEF1 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC06D20835F3D0028AEF1 /* Register.swift */; };
+		848DC0712083605E0028AEF1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC0702083605E0028AEF1 /* ApiManager.swift */; };
+		C8A4487AE3362974CE5AEA23 /* Pods_CharityApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6C428BCDB6CB4E19649B14 /* Pods_CharityApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110A0CCD0B53CC0147B42971 /* Pods-CharityApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharityApp/Pods-CharityApp.debug.xcconfig"; sourceTree = "<group>"; };
+		450D6D494F64A03474E25072 /* Pods_CharityAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		728666C68F5B2474000E334A /* Pods-CharityAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharityAppUITests/Pods-CharityAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82A679AA376F0687C41B44B6 /* Pods-CharityApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharityApp/Pods-CharityApp.release.xcconfig"; sourceTree = "<group>"; };
 		845C38B9207FBBAF00D73721 /* CharityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845C38BC207FBBAF00D73721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845C38BE207FBBAF00D73721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		845C38C1207FBBAF00D73721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845C38C3207FBBAF00D73721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845C38C6207FBBAF00D73721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845C38C8207FBBAF00D73721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +62,22 @@
 		845C38D8207FBBAF00D73721 /* CharityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845C38DC207FBBAF00D73721 /* CharityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityAppUITests.swift; sourceTree = "<group>"; };
 		845C38DE207FBBAF00D73721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84714BC120838EC300358F40 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		84714BC42083AEAF00358F40 /* Braintree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Braintree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84714BC62083AEB800358F40 /* BraintreeDropIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BraintreeDropIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84714BC72083B19300358F40 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		84714BC92083D1D200358F40 /* CharityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityVC.swift; sourceTree = "<group>"; };
+		84714BCB2083DECA00358F40 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+		84714BCC2083DF2500358F40 /* Charity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Charity.storyboard; sourceTree = "<group>"; };
+		848DC062208354280028AEF1 /* SignUPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPVC.swift; sourceTree = "<group>"; };
+		848DC06A20835A550028AEF1 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		848DC06D20835F3D0028AEF1 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		848DC0702083605E0028AEF1 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		8A6C428BCDB6CB4E19649B14 /* Pods_CharityApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28D2288EB8E294ED802E77F /* Pods-CharityAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharityAppTests/Pods-CharityAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD5D203B8B408C1D7257A6DF /* Pods-CharityAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharityAppTests/Pods-CharityAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2CFE7190F35FC74B037C18 /* Pods_CharityAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB52F74C1835EB2644734FC /* Pods-CharityAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharityAppUITests/Pods-CharityAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84714BC52083AEB800358F40 /* BraintreeDropIn.framework in Frameworks */,
+				84714BC32083AEAF00358F40 /* Braintree.framework in Frameworks */,
+				C8A4487AE3362974CE5AEA23 /* Pods_CharityApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559B0B8D24F8445965655160 /* Pods_CharityAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +103,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52517D8A3E7755C8C5D083FE /* Pods_CharityAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		130B60553497ED45880D7C8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				110A0CCD0B53CC0147B42971 /* Pods-CharityApp.debug.xcconfig */,
+				82A679AA376F0687C41B44B6 /* Pods-CharityApp.release.xcconfig */,
+				CD5D203B8B408C1D7257A6DF /* Pods-CharityAppTests.debug.xcconfig */,
+				C28D2288EB8E294ED802E77F /* Pods-CharityAppTests.release.xcconfig */,
+				DFB52F74C1835EB2644734FC /* Pods-CharityAppUITests.debug.xcconfig */,
+				728666C68F5B2474000E334A /* Pods-CharityAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		845C38B0207FBBAE00D73721 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +130,8 @@
 				845C38D0207FBBAF00D73721 /* CharityAppTests */,
 				845C38DB207FBBAF00D73721 /* CharityAppUITests */,
 				845C38BA207FBBAF00D73721 /* Products */,
+				130B60553497ED45880D7C8D /* Pods */,
+				B75EC6628A5F4DFCBCB50DF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +148,19 @@
 		845C38BB207FBBAF00D73721 /* CharityApp */ = {
 			isa = PBXGroup;
 			children = (
+				848DC06F208360420028AEF1 /* Api Manager */,
+				848DC068208359F50028AEF1 /* Model */,
 				845C38BC207FBBAF00D73721 /* AppDelegate.swift */,
 				845C38BE207FBBAF00D73721 /* ViewController.swift */,
-				845C38C0207FBBAF00D73721 /* Main.storyboard */,
+				848DC062208354280028AEF1 /* SignUPVC.swift */,
+				84714BCB2083DECA00358F40 /* Main.storyboard */,
 				845C38C3207FBBAF00D73721 /* Assets.xcassets */,
 				845C38C5207FBBAF00D73721 /* LaunchScreen.storyboard */,
 				845C38C8207FBBAF00D73721 /* Info.plist */,
+				84714BC120838EC300358F40 /* PaymentVC.swift */,
+				84714BC72083B19300358F40 /* HomeVC.swift */,
+				84714BC92083D1D200358F40 /* CharityVC.swift */,
+				84714BCC2083DF2500358F40 /* Charity.storyboard */,
 			);
 			path = CharityApp;
 			sourceTree = "<group>";
@@ -125,6 +183,51 @@
 			path = CharityAppUITests;
 			sourceTree = "<group>";
 		};
+		848DC068208359F50028AEF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				848DC06C20835F260028AEF1 /* Register */,
+				848DC06920835A070028AEF1 /* Login */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		848DC06920835A070028AEF1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				848DC06A20835A550028AEF1 /* Login.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		848DC06C20835F260028AEF1 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				848DC06D20835F3D0028AEF1 /* Register.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		848DC06F208360420028AEF1 /* Api Manager */ = {
+			isa = PBXGroup;
+			children = (
+				848DC0702083605E0028AEF1 /* ApiManager.swift */,
+			);
+			path = "Api Manager";
+			sourceTree = "<group>";
+		};
+		B75EC6628A5F4DFCBCB50DF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84714BC62083AEB800358F40 /* BraintreeDropIn.framework */,
+				84714BC42083AEAF00358F40 /* Braintree.framework */,
+				8A6C428BCDB6CB4E19649B14 /* Pods_CharityApp.framework */,
+				DF2CFE7190F35FC74B037C18 /* Pods_CharityAppTests.framework */,
+				450D6D494F64A03474E25072 /* Pods_CharityAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845C38E1207FBBAF00D73721 /* Build configuration list for PBXNativeTarget "CharityApp" */;
 			buildPhases = (
+				D9A5421540DD226847DA3DC0 /* [CP] Check Pods Manifest.lock */,
 				845C38B5207FBBAF00D73721 /* Sources */,
 				845C38B6207FBBAF00D73721 /* Frameworks */,
 				845C38B7207FBBAF00D73721 /* Resources */,
+				E5C10E167FE181264A2CA70A /* [CP] Embed Pods Frameworks */,
+				5ACBBC2DF785D4E74739B615 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845C38E4207FBBAF00D73721 /* Build configuration list for PBXNativeTarget "CharityAppTests" */;
 			buildPhases = (
+				31EC536BB1F270FBFC54D990 /* [CP] Check Pods Manifest.lock */,
 				845C38C9207FBBAF00D73721 /* Sources */,
 				845C38CA207FBBAF00D73721 /* Frameworks */,
 				845C38CB207FBBAF00D73721 /* Resources */,
+				A2EFE2E05109D8CB385E6D05 /* [CP] Embed Pods Frameworks */,
+				A934B5515BD01226A8F4CC7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845C38E7207FBBAF00D73721 /* Build configuration list for PBXNativeTarget "CharityAppUITests" */;
 			buildPhases = (
+				42830BBBE3489FB448A3E465 /* [CP] Check Pods Manifest.lock */,
 				845C38D4207FBBAF00D73721 /* Sources */,
 				845C38D5207FBBAF00D73721 /* Frameworks */,
 				845C38D6207FBBAF00D73721 /* Resources */,
+				4261621C69E83973DD8FB2DA /* [CP] Embed Pods Frameworks */,
+				C1D646A2B89C6EA053D6EA8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +346,7 @@
 			files = (
 				845C38C7207FBBAF00D73721 /* LaunchScreen.storyboard in Resources */,
 				845C38C4207FBBAF00D73721 /* Assets.xcassets in Resources */,
-				845C38C2207FBBAF00D73721 /* Main.storyboard in Resources */,
+				84714BCD2083DF2500358F40 /* Charity.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +366,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31EC536BB1F270FBFC54D990 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharityAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4261621C69E83973DD8FB2DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityAppUITests/Pods-CharityAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42830BBBE3489FB448A3E465 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharityAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ACBBC2DF785D4E74739B615 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CharityApp/Pods-CharityApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityApp/Pods-CharityApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2EFE2E05109D8CB385E6D05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityAppTests/Pods-CharityAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A934B5515BD01226A8F4CC7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityAppTests/Pods-CharityAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D646A2B89C6EA053D6EA8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityAppUITests/Pods-CharityAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9A5421540DD226847DA3DC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharityApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C10E167FE181264A2CA70A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CharityApp/Pods-CharityApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework",
+				"${BUILT_PRODUCTS_DIR}/BraintreeDropIn/BraintreeDropIn.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Braintree.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BraintreeDropIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityApp/Pods-CharityApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		845C38B5207FBBAF00D73721 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				845C38BF207FBBAF00D73721 /* ViewController.swift in Sources */,
+				84714BCA2083D1D200358F40 /* CharityVC.swift in Sources */,
+				84714BC82083B19300358F40 /* HomeVC.swift in Sources */,
+				848DC063208354280028AEF1 /* SignUPVC.swift in Sources */,
 				845C38BD207FBBAF00D73721 /* AppDelegate.swift in Sources */,
+				848DC06B20835A550028AEF1 /* Login.swift in Sources */,
+				848DC0712083605E0028AEF1 /* ApiManager.swift in Sources */,
+				84714BC220838EC300358F40 /* PaymentVC.swift in Sources */,
+				848DC06E20835F3D0028AEF1 /* Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +576,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		845C38C0207FBBAF00D73721 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				845C38C1207FBBAF00D73721 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		845C38C5207FBBAF00D73721 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +635,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +686,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,36 +696,41 @@
 		};
 		845C38E2207FBBAF00D73721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110A0CCD0B53CC0147B42971 /* Pods-CharityApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63CU5HW4Q3;
 				INFOPLIST_FILE = CharityApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.believerz.CharityApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		845C38E3207FBBAF00D73721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A679AA376F0687C41B44B6 /* Pods-CharityApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63CU5HW4Q3;
 				INFOPLIST_FILE = CharityApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.believerz.CharityApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		845C38E5207FBBAF00D73721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5D203B8B408C1D7257A6DF /* Pods-CharityAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +748,7 @@
 		};
 		845C38E6207FBBAF00D73721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28D2288EB8E294ED802E77F /* Pods-CharityAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +766,7 @@
 		};
 		845C38E8207FBBAF00D73721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB52F74C1835EB2644734FC /* Pods-CharityAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +783,7 @@
 		};
 		845C38E9207FBBAF00D73721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728666C68F5B2474000E334A /* Pods-CharityAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

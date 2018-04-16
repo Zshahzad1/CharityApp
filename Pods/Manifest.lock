@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Braintree/Card (4.9.6):
+    - Braintree/Core
+  - Braintree/Core (4.9.6)
+  - Braintree/UnionPay (4.9.6):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (5.2.3):
+    - BraintreeDropIn/DropIn (= 5.2.3)
+  - BraintreeDropIn/DropIn (5.2.3):
+    - Braintree/Card (~> 4.0)
+    - Braintree/Core (~> 4.0)
+    - Braintree/UnionPay (~> 4.0)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (5.2.3)
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BraintreeDropIn
+  - GoogleMaps
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Braintree: 56ad3fa47b2f4b047cb50d989d15208690a6cbae
+  BraintreeDropIn: 20109bea730b9bd31d71792ca84545265b7d27e4
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: c167dcc89f8949da70cf263141b97b50b394d0e7
+
+COCOAPODS: 1.4.0
