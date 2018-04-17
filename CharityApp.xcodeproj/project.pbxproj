@@ -15,7 +15,6 @@
 		845C38C7207FBBAF00D73721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845C38C5207FBBAF00D73721 /* LaunchScreen.storyboard */; };
 		845C38D2207FBBAF00D73721 /* CharityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C38D1207FBBAF00D73721 /* CharityAppTests.swift */; };
 		845C38DD207FBBAF00D73721 /* CharityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C38DC207FBBAF00D73721 /* CharityAppUITests.swift */; };
-		84714BC220838EC300358F40 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84714BC120838EC300358F40 /* PaymentVC.swift */; };
 		84714BC32083AEAF00358F40 /* Braintree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84714BC42083AEAF00358F40 /* Braintree.framework */; };
 		84714BC52083AEB800358F40 /* BraintreeDropIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84714BC62083AEB800358F40 /* BraintreeDropIn.framework */; };
 		84714BC82083B19300358F40 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84714BC72083B19300358F40 /* HomeVC.swift */; };
@@ -25,6 +24,7 @@
 		848DC06B20835A550028AEF1 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC06A20835A550028AEF1 /* Login.swift */; };
 		848DC06E20835F3D0028AEF1 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC06D20835F3D0028AEF1 /* Register.swift */; };
 		848DC0712083605E0028AEF1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC0702083605E0028AEF1 /* ApiManager.swift */; };
+		84CCE8802086565400C0E174 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCE87F2086565400C0E174 /* PaymentViewController.swift */; };
 		C8A4487AE3362974CE5AEA23 /* Pods_CharityApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6C428BCDB6CB4E19649B14 /* Pods_CharityApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +62,6 @@
 		845C38D8207FBBAF00D73721 /* CharityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845C38DC207FBBAF00D73721 /* CharityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityAppUITests.swift; sourceTree = "<group>"; };
 		845C38DE207FBBAF00D73721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84714BC120838EC300358F40 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
 		84714BC42083AEAF00358F40 /* Braintree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Braintree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84714BC62083AEB800358F40 /* BraintreeDropIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BraintreeDropIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84714BC72083B19300358F40 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -73,6 +72,7 @@
 		848DC06A20835A550028AEF1 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		848DC06D20835F3D0028AEF1 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		848DC0702083605E0028AEF1 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		84CCE87F2086565400C0E174 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaymentViewController.swift; path = "../../braintree-sticker-store-ios-master/braintree-sticker-store-ios/PaymentViewController.swift"; sourceTree = "<group>"; };
 		8A6C428BCDB6CB4E19649B14 /* Pods_CharityApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28D2288EB8E294ED802E77F /* Pods-CharityAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharityAppTests/Pods-CharityAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		CD5D203B8B408C1D7257A6DF /* Pods-CharityAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharityAppTests/Pods-CharityAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 				845C38C3207FBBAF00D73721 /* Assets.xcassets */,
 				845C38C5207FBBAF00D73721 /* LaunchScreen.storyboard */,
 				845C38C8207FBBAF00D73721 /* Info.plist */,
-				84714BC120838EC300358F40 /* PaymentVC.swift */,
+				84CCE87F2086565400C0E174 /* PaymentViewController.swift */,
 				84714BC72083B19300358F40 /* HomeVC.swift */,
 				84714BC92083D1D200358F40 /* CharityVC.swift */,
 				84714BCC2083DF2500358F40 /* Charity.storyboard */,
@@ -532,6 +532,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CCE8802086565400C0E174 /* PaymentViewController.swift in Sources */,
 				845C38BF207FBBAF00D73721 /* ViewController.swift in Sources */,
 				84714BCA2083D1D200358F40 /* CharityVC.swift in Sources */,
 				84714BC82083B19300358F40 /* HomeVC.swift in Sources */,
@@ -539,7 +540,6 @@
 				845C38BD207FBBAF00D73721 /* AppDelegate.swift in Sources */,
 				848DC06B20835A550028AEF1 /* Login.swift in Sources */,
 				848DC0712083605E0028AEF1 /* ApiManager.swift in Sources */,
-				84714BC220838EC300358F40 /* PaymentVC.swift in Sources */,
 				848DC06E20835F3D0028AEF1 /* Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
